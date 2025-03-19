@@ -1,0 +1,95 @@
+body{
+    font-family: Roboto;
+}
+
+/* top-menu */
+.top{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo-card{
+    display: flex;
+    align-items: center;
+}
+.icon i, .top-right i{
+    font-size: 25px;
+}
+.icon{
+    padding: 0px 10px;
+}
+
+.logo img{
+    width: 150px;
+    height: 100%
+}
+
+.top-right{
+    display: flex;
+    align-items: center;
+}
+
+.top-right object{
+    width: 30px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.top-right img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.top-right i{
+    margin-right: 30px;
+}
+
+.search-bar input{
+    width: 250px;
+    height: 36px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.search-icon{
+    background-color: rgb(244, 241, 241);
+    height: 39px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
+.search-icon i{
+    font-size: 20px;
+}
+
+/* side-nav-menu */
+main{
+}
+
+
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav img{
+    width: 30px;
+    height: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
